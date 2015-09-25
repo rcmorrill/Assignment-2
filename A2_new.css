@@ -7,12 +7,16 @@ html,body,h1,h2,h3,h4,p,div,a,ul,li,span{
 
 html,body{
 	height:100%;
+	position:relative;
 }
 
 
 #red{
 	background-color: red;
-	height:10%;
+	height:50px;
+	position:absolute;
+	top: 0;
+	width: 100%;
 }
 #yellow{
 	background-color: yellow;
@@ -36,11 +40,17 @@ html,body{
 }
 #purple{
 	background-color: purple;
-	clear:both;
-	height: 10%;
+	height: 50px;
+	position:absolute;
+	bottom:0;
+	width:100%;
 }
 
 .parent{
-	height: 80%;
+	position:absolute;
+	top: 50px;
+	bottom: 50px;
+	height:100%;
+	width:100%;
 }
 
